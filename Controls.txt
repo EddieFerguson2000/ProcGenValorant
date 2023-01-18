@@ -1,0 +1,8 @@
+To play, simply launch the EXE
+
+WASD - move
+SPACE - Jump (you can jump as much as you want)
+LEFT CLICK - shoot
+B - Plant the bomb
+ENTER - Create a new unseeded map (completeky random)
+NUMBER KEYS (top of the keyboard) - Each will create a new, seeded map (same every time per key)

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6885965124580746794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6885965124580746804}
+  - component: {fileID: 6885965124580746805}
+  m_Layer: 0
+  m_Name: levelGen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6885965124580746804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6885965124580746794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6885965124580746805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6885965124580746794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a933db704e9c8654eb8d1e8beaa3ce78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallPrefab: {fileID: 3481757780669301555, guid: 6395d69a85e73254c986ae8a57b29b9b, type: 3}
+  floorPrefab: {fileID: 6690770046405366648, guid: 3b59b4629b2ac1d4c8822816bce3cf35, type: 3}
+  playerPrefab: {fileID: 5342662419024858528, guid: c0fcf0f41c018f14eb798908c6ab7239, type: 3}
+  enemyPrefab: {fileID: 1201131549176402535, guid: 496f2784ab5bc5f418cd519f22ca472d, type: 3}
+  teleportPrefabA: {fileID: 5043863937795800796, guid: affbadfe7ff5c904e8a1b5afc41f9d4f, type: 3}
+  teleportPrefabB: {fileID: 8898499102420992331, guid: 2314dd3c2e1a2e64caa6a5063919e8cb, type: 3}
+  nestPrefab:
+  - {fileID: 5052272334597492856, guid: cfc621bb62da0d644b245b3aec551422, type: 3}
+  - {fileID: 2688546435007296309, guid: 610115f05cc00a44aa13c43b72c89ddf, type: 3}
+  - {fileID: 2755521642953177197, guid: 292a856c20296f64d810ccf5e1a12f12, type: 3}
+  - {fileID: 4730340907172236378, guid: 7fe6b04e23952254bb22a3a7e241caa6, type: 3}
+  doorPrefab: {fileID: 5238798730415997521, guid: 153b16eab3abb4b469e37b0bf0d3fc73, type: 3}
+  pyramidPrefab: {fileID: 6025488335868775132, guid: 54c8661ba08d434409861d65f7e5faab, type: 3}
+  bindBoxPrefab:
+  - {fileID: 2100299320165146955, guid: 39ab914bd79354244a2047ecfa533ef4, type: 3}
+  - {fileID: 4163874303923633097, guid: f08f053707b68b94ca5899d21f56bd3f, type: 3}
+  - {fileID: 6982428486414862046, guid: 6c921043634ac654a92ed75fbf8ede30, type: 3}
+  coverPrefab: {fileID: 6386601193861540498, guid: a7279f0c2e02f5e4f96e6750678f21d0, type: 3}
+  shortCoverPrefab: {fileID: 3849136562542596260, guid: ca6292f3ec55cc040b798ffde788bfaa, type: 3}
+  plantArea: {fileID: 7285367080455192833, guid: 85518a7739181204ebece156ac7c168e, type: 3}
+  bombPrefab: {fileID: 5926275233105465665, guid: fa063d4698abbb94aa7072e7cad3d09f, type: 3}
+  Mats:
+  - {fileID: 2100000, guid: cf711d0b53c63c348b149097596ecae3, type: 2}
+  - {fileID: 2100000, guid: 23786ef4f748cd14f956b3fa316cae7c, type: 2}
+  - {fileID: 2100000, guid: cf711d0b53c63c348b149097596ecae3, type: 2}
+  - {fileID: 2100000, guid: ad9d123385aec0d4b80dcfa65bdb1217, type: 2}
+  - {fileID: 2100000, guid: 23786ef4f748cd14f956b3fa316cae7c, type: 2}
+  - {fileID: 2100000, guid: a488261718342894e892088ebdd9ac33, type: 2}
+  - {fileID: 2100000, guid: c216a11f5b22ee1499914219031bf430, type: 2}
+  - {fileID: 2100000, guid: 60522e6764688ab46a337af4278452d2, type: 2}
+  - {fileID: 2100000, guid: 14198c892cbbe004a90d92a6eef035b2, type: 2}
+  - {fileID: 0}
+  sizeOfMap: 150
+  seed: 0
